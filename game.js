@@ -31,6 +31,7 @@ const restartGame=()=>{
 const gamedraw=()=>{
     msg.innerText="It's Draw! Restart your Game.";
     hide.classList.remove("hide");
+    hidden.classList.add("hidden");
     disableBoxes();
 }
 for(let box of boxes) {
